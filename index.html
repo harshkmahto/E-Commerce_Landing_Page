@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        
+            <img src="Logo.webp" class="mainlogo"  alt="logo"  >
+        
+        <div class="logo">ShopEasy</div>
+        
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#social-links">Contact</a></li>
+                <li><a href="#" class="cart">🛒 <span id="cart-count">0</span></a></li>
+                <li><button class="login">LOGIN</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- login -->
+   <div class="log">
+    
+    
+   </div>
+   
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Shop the Latest Trends</h1>
+            <p>Find the best deals on <b class="bold">ShopEasy.</b> </br> stylish Sneakers, Sport Shoes and More! </p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="Logo.webp" alt="Logo">
+        </div>
+    </section>
+
+    <!-- poster  -->
+
+    <div class="slider">
+        <div class="slides">
+            <img src="https://img.freepik.com/premium-photo/online-ecommerce-shoes-shopping_1016675-244.jpg" class="slide" alt="Product 1">
+            <img src="https://s3-alpha.figma.com/hub/file/2570153728/5b4f8bc1-8104-4ac7-a0bb-42ba92f0a322-cover.png" class="slide" alt="Product 2">
+            <img src="https://i.pinimg.com/originals/23/f3/9c/23f39ca5013fd39c83f821f95d74b897.jpg" class="slide" alt="Product 3">
+            <img src="https://cdn.dribbble.com/users/12649391/screenshots/19050336/media/77a164c3f358fc958b351407e6658264.jpg?resize=400x0" class="slide" alt="Product 4">
+            <img src="https://cdn6.f-cdn.com/contestentries/21598/3557674/519d8c0780c3f_thumb900.jpg" class="slide" alt="Product 5">
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+
+    
+    <!-- Product Section -->
+    <section class="products  ">
+        <h2>Featured Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/s/i/l/10-2031-blu-wht-44-bruton-blue-original-imagfmdubtgj8ebj-bb.jpeg?q=70" alt="Product 1">
+                <h3>Campus Shoes</h3>
+                <p>Rs.1199</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.YguOkIP2xIjpoReX_q0R4gHaHa?rs=1&pid=ImgDetMain" alt="Product 2">
+                <h3>Sport Shoes</h3>
+                <p>Rs.1899</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+            <div class="product">
+                <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/21725622/2023/7/11/4b35dcc6-8d20-4e46-a5f8-53cde3f384741689078273510-Red-Tape-Men-Mesh-Sneakers-3221689078273173-1.jpg" alt="Product 3">
+                <h3>Stylish Sneakers</h3>
+                <p>Rs1499</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+   
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.QzkXtipfzjBA_n1WpSXj9AHaLH?rs=1&pid=ImgDetMain" alt="Product 3">
+                <h3>Sandal</h3>
+                <p>Rs.1999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://i.pinimg.com/736x/f7/af/42/f7af42d0f49d4746bfc178e521042cf5.jpg" alt="Product 3">
+                <h3>Stylish Sandal</h3>
+                <p>Rs.699</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.NdRAtFD9oabLRCFhv4zxhQHaJ5?rs=1&pid=ImgDetMain" alt="Product 3">
+                <h3>Stylish for Girls</h3>
+                <p>Rs.1099</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            
+        </div>
+    </section>
+
+
+<!-- poster2 -->
+
+<div class="poster">
+    <div class="content">
+        <h1>BIG SALE! 50% OFF</h1>
+        <p>Limited time offer on all trending products. Grab yours now!</p>
+        <a href="#" class="bt">Shop Now</a>
+    </div>
+</div>
+
+    
+    <!-- Footer -->
+
+
+    <footer>
+
+        <div className="footer-text">
+            <p>We have been in the business for quite a while now, and in that time we have not only managed to make close relationships with numerous partners, but also to recognize what people need. At MobileShop you will find quality products from top brands at consistently low prices. We are offering a wide range of smartphones.</p>
+          </div>
+
+<br>
+<br>
+
+<div class="subscribe">
+<div className="footer-widget-heading">
+    <h3>Subscribe</h3>
+  </div>
+  <div className="footer-text mb-25">
+    <p>Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
+  </div>
+<div className="subscribe-form">
+    <form action="#">
+      <input type="text" placeholder="Email Address" />
+      <button><i className="fab fa-telegram-plane"></i> </button>
+    </form>
+  </div>
+</div>
+
+<br>
+
+        <p>&copy; 2025 ShopEasy. All Rights Reserved.</p>
+        <br>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+           
+        </div>
+
+
+        
+
+
+
+    </footer>
+
+</body>
+</html>
